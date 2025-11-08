@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Configuration CORS
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: '*',
   credentials: true
 }));
 
@@ -67,16 +67,4 @@ app.get('/api/projects/:id', async (req, res) => {
     res.status(500).json({ error: 'Erreur lors de la récupération du projet' });
   }
 });
-
-app.listen(PORT, () => {
-  console.log('');
-  console.log('🚀 ========================================');
-  console.log(`   Serveur API démarré sur http://localhost:${PORT}`);
-  console.log('🚀 ========================================');
-  console.log('');
-  console.log('📊 Routes disponibles:');
-  console.log(`   GET  http://localhost:${PORT}/`);
-  console.log(`   GET  http://localhost:${PORT}/api/projects`);
-  console.log(`   GET  http://localhost:${PORT}/api/projects/:id`);
-  console.log('');
-});
+export default app;
