@@ -1,0 +1,49 @@
+.
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── App.test.js
+│   ├── assets
+│   │   └── avatar.jpg
+│   ├── components
+│   │   ├── feedback
+│   │   ├── layout
+│   │   │   ├── DotNavigation.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── ScrollSection.jsx
+│   │   │   └── ScrollToTop.jsx
+│   │   ├── sections
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Projects.jsx
+│   │   │   └── Skills.jsx
+│   │   └── ui
+│   │       ├── ContactForm.jsx
+│   │       ├── SkillCard.jsx
+│   │       └── SocialLinks.jsx
+│   ├── context
+│   │   └── ThemeContext.jsx
+│   ├── hooks
+│   │   └── useScrollSpy.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── main.jsx
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+│   └── styles
+├── structure.txt
+└── tailwind.config.js
+
+12 directories, 35 files
